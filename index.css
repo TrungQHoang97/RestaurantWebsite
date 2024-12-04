@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray; /* Light background */
+    color: darkgray; /* General text color */
+}
+
+/* Header Section */
+.simple-header {
+    background-color: palegreen; /* Pastel Green */
+    padding: 10px 20px;
+    text-align: right; /* Align subcategories to the top right */
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Ensure subcategories align to the right */
+    gap: 20px; /* Space between menu items */
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: darkgray;
+    font-weight: bold;
+}
+
+/* Main Content */
+.home-intro {
+    text-align: center;
+    padding: 20px;
+}
+
+.home-intro h1 {
+    font-size: 2.5rem;
+    font-weight: bold; /* Make the heading bold */
+    margin-bottom: 20px;
+}
+
+/* Main Image */
+.home-intro img {
+    display: block;
+    margin: 20px auto; /* Center the image */
+    width: 80%; /* Adjust width to fit the page */
+    aspect-ratio: 16 / 9; /* Enforce 16:9 aspect ratio */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+/* Footer Section */
+footer {
+    background-color: palegreen; /* Pastel Green */
+    color: darkgray; /* Dark gray text */
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: blue; /* Blue links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

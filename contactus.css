@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    color: darkgray;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure full viewport height */
+}
+
+/* Header Section */
+.simple-header {
+    background-color: #c5e3bf; /* Pastel Green */
+    padding: 10px 20px;
+    text-align: right; /* Align subcategories to the top right */
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Ensure subcategories align to the right */
+    gap: 20px; /* Space between menu items */
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: darkgray;
+    font-weight: bold;
+}
+
+/* Main Content Wrapper */
+.main-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Main Content */
+.contact {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    width: 100%;
+    max-width: 400px; /* Limit the form width */
+}
+
+.contact h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+form textarea {
+    resize: none; /* Disable resizing */
+}
+
+form button {
+    display: block;
+    background-color: #c5e3bf; /* Pastel Green */
+    color: darkgray;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto; /* Center the button */
+}
+
+form button:hover {
+    background-color: #a3d9a5; /* Slightly darker green */
+}
+
+/* Footer Section */
+footer {
+    background-color: #c5e3bf; /* Pastel Green */
+    color: darkgray;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

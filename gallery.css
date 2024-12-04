@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray; /* Light background */
+    color: darkgray; /* General text color */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Header Section */
+.simple-header {
+    background-color: #c5e3bf; /* Pastel Green */
+    padding: 10px 20px;
+    text-align: right; /* Align subcategories to the top right */
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Ensure subcategories align to the right */
+    gap: 20px; /* Space between menu items */
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: darkgray;
+    font-weight: bold;
+}
+
+/* Main Content */
+.gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery h1 {
+    font-size: 2.5rem;
+    font-weight: bold; /* Make the heading bold */
+    margin-bottom: 20px;
+}
+
+.gallery p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.5; /* Improve readability */
+}
+
+/* Single Column of Images */
+.gallery-list {
+    display: flex;
+    flex-direction: column; /* Stack images in a column */
+    align-items: center; /* Center images horizontally */
+    gap: 5px; /* Add minimal spacing between rows */
+}
+
+.gallery-list img {
+    width: 10px; /* Further minimized width */
+    height: 10px; /* Further minimized height */
+    border-radius: 8px; /* Add rounded corners */
+    object-fit: scale-down; /* Ensure proper scaling */
+}
